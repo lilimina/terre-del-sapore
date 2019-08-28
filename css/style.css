@@ -804,16 +804,6 @@ textarea.form-control {
   opacity: 1;
 }
 
-#map {
-  height: 400px;
-  width: 100%;
-}
-
-@media screen and (max-width: 768px) {
-  #map {
-    height: 300px;
-  }
-}
 
 #reservationModal .close {
   position: absolute;

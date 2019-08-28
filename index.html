@@ -17,14 +17,28 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
 
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="css/jquery.timepicker.css">
-
-      <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Facebook Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '339458626774909');
+      fbq('track', 'PageView');
+      </script>
+      <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=339458626774909&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
 
   </head>
 
@@ -243,27 +257,27 @@
 
           <div class="col-md-12 text-center mb-5 site-animate">
             <h2 class="display-4">GET IN TOUCH</h2>
-            <p class="reservations text-center" style="font-style: italic;">Table reservations accepted by phone or email only.</p>
+            <p class="reservations text-center" style="font-style: italic;">Table reservations accepted by telephone or email only.</p>
             <div class="row justify-content-center">
             </div>
           </div>
 
           <div class="col-md-7 mb-5 site-animate">
-            <form action="contact-form-handler.php" method="post" enctype="text/plain" name="contact_form">
+            <form action="contact-form-handler.php" method="get" enctype="text/plain" id="contactform" role="form">
               <div class="form-group">
                 <label for="name" class="sr-only">Name</label>
-                <input type="text" class="form-control" name="name" placeholder="Name">
+                <input type="text" class="form-control" name="name" placeholder="Name" id="name" />
               </div>
               <div class="form-group">
                 <label for="email" class="sr-only">Email</label>
-                <input type="text" class="form-control" name="email" placeholder="Email">
+                <input type="email" class="form-control" name="email" placeholder="Email" id="email" />
               </div>
               <div class="form-group">
                 <label for="message" class="sr-only">Message</label>
-                <textarea name="message" name="message" cols="30" rows="10" class="form-control" placeholder="Write your message"></textarea>
+                <textarea type="text" name="message" cols="30" rows="10" class="form-control" placeholder="Write your message" id="message"></textarea>
               </div>
               <div class="form-group">
-                <input type="submit" class="btn btn-primary btn-lg" value="Submit">
+                <input type="submit" class="btn btn-primary btn-lg" value="Submit" name="submit"/>
               </div>
             </form>
           </div>
@@ -294,7 +308,7 @@
               
       </div>
     </section>
-    <!-- <div id="map"></div> -->
+    
     <!-- END section -->
 
     </section>
@@ -332,16 +346,9 @@
     <script src="js/jquery.easing.1.3.js"></script>
     <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-
-    <script src="js/bootstrap-datepicker.js"></script>
-    <script src="js/jquery.timepicker.min.js"></script>
-    
+    <script src="js/jquery.magnific-popup.min.js"></script>    
     <script src="js/jquery.animateNumber.min.js"></script>
-
     <script src="js/main.js"></script>
-
-    <script src="js/validator.js"></script>
     
   </body>
 </html>
