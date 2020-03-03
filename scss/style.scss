@@ -687,54 +687,6 @@ textarea.form-control {
 	}
 }
 
-// Modal
-
-#reservationModal {
-	.close {
-		position: absolute;
-		right: 30px;
-		top: 10px;
-		cursor: pointer;
-		&:active, &:focus {
-			outline: none!important;
-		}
-		
-		span {
-			font-size: 30px;	
-		}
-		small {
-			font-size: 16px;
-			position: relative;
-			top: -2px;
-			right: 10px;
-		}
-	}
-	.modal-content {
-		border-radius: 0;
-		label {
-			color: $black;
-		}
-		.modal-body {
-			padding: 0;
-		}
-		.bg-image {
-			height: 200px;
-			background-size: cover;
-			background-position: center center;
-			background-repeat: no-repeat;
-			padding-right: 0!important;
-			padding-left: 0!important;
-			@media screen and (max-width: $lg) {
-				height: 200px;
-				padding-right: 0!important;
-				padding-left: 0!important;
-				margin-left: 15px;
-				margin-right: 15px;
-				overflow: hidden;
-			}
-		}
-	}
-}
 
 // magnific pop up
 

@@ -8,16 +8,48 @@ body {
   opacity: 20;
   font-size: 16px;
   line-height: 1.6;
-  color: #b8b8b8;
+  color: #a7a2a2;
 }
 
 .logo {
   width: 200px;
 }
 
+.img-fluid {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.title {
+  color: rgb(44, 41, 41);
+  overflow: hidden;
+  text-align: center;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.12), 0 2px 5px rgba(0, 0, 0, 0.23);
+ }
+ .title:before,
+ .title:after {
+  background-color:rgb(27, 25, 25);
+  content: "";
+  display: inline-block;
+  height: 2px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12), 0 2px 5px rgba(0, 0, 0, 0.23);
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+ }
+ .title:before {
+  right: 0.5em;
+  margin-left: -50%;
+ }
+ .title:after {
+  left: 0.5em;
+  margin-right: -50%;
+ }
+
 .btn {
   border-radius: 45px !important;
 }
+
+
 
 a {
   -webkit-transition: .3s all ease;
@@ -26,18 +58,13 @@ a {
   color: #FDA403;
 }
 
+
+
 a:hover {
   text-decoration: none;
   color: #FDA403;
 }
 
-h1, h2, h3, h4, h5,
-.h1, .h2, .h3, .h4, .h5 {
-  line-height: 1.45;
-  /* color: rgb(252, 247, 247); */
-  /* font-family: "Playfair Display", serif; */
-  font-weight: bold;
-}
 
 .text-primary {
   color: #FDA403 !important;
@@ -364,9 +391,6 @@ footer {
   color: #000 !important;
 }
 
-.bg-light {
-  background: #darken fafafa, 4% !important;
-}
 
 .site-custom-gutters {
   margin-left: -10px;
@@ -554,7 +578,8 @@ textarea.form-control {
 
 .site-section .site-primary-title {
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
+  font-weight: bold;
 }
 
 #section-about {
@@ -574,6 +599,10 @@ textarea.form-control {
   #section-about .img img {
     max-width: 100%;
   }
+
+  .img-offer {
+    margin-top: 1em;
+  }
 }
 
 /* #section-offer {
@@ -581,7 +610,7 @@ textarea.form-control {
 } */
 
 .site-section {
-  padding: 7em 0;
+  padding: 3em 0;
 }
 
 .site-bg-dark {
@@ -804,49 +833,6 @@ textarea.form-control {
   opacity: 1;
 }
 
-
-#reservationModal .close {
-  position: absolute;
-  right: 30px;
-  top: 10px;
-  cursor: pointer;
-}
-
-#reservationModal .close:active, #reservationModal .close:focus {
-  outline: none !important;
-}
-
-#reservationModal .close span {
-  font-size: 30px;
-}
-
-#reservationModal .close small {
-  font-size: 16px;
-  position: relative;
-  top: -2px;
-  right: 10px;
-}
-
-#reservationModal .modal-content {
-  border-radius: 0;
-}
-
-#reservationModal .modal-content label {
-  color: #000;
-}
-
-#reservationModal .modal-content .modal-body {
-  padding: 0;
-}
-
-#reservationModal .modal-content .bg-image, #reservationModal .modal-content .site-cover {
-  height: 200px;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  padding-right: 0 !important;
-  padding-left: 0 !important;
-}
 
 @media screen and (max-width: 960px) {
   #reservationModal .modal-content .bg-image, #reservationModal .modal-content .site-cover {
