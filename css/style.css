@@ -87,6 +87,12 @@ a.navbar-brand {
   border-radius: 12px;
 }
 
+.delivery-hero {
+  width: 50px;
+  margin: 6px;
+  border-radius: 10px;
+}
+
 .btn, .shadow, .delivery {
   -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
@@ -300,7 +306,7 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
-  background: #FDA403;
+  /* background: #FDA403; */
   height: 2px;
   content: " ";
 }
