@@ -461,25 +461,31 @@ footer {
 .btn.btn-primary {
   background: #FDA403;
   border-color: #FDA403;
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 
 .btn.btn-primary:hover, .btn.btn-primary:focus, .btn.btn-primary:active {
-  border-color: #cb8402;
-  background: #cb8402;
+  border-color: #FDA403;
+  background: #FDA403;;
 }
 
 .btn.btn-outline-white {
-  border-color: rgba(255, 255, 255, 0.8);
-  background: none;
+  border-color: rgb(247, 234, 209);
+  background:  rgb(247, 234, 209);
   border-radius: 0px;
   border-width: 2px;
+  color: black;
 }
 
 .btn.btn-outline-white:hover, .btn.btn-outline-white:focus, .btn.btn-outline-white:active {
-  background: #fff;
-  border-color: #fff;
+  background:#FDA403;;
+  border-color:#FDA403;;
   color: #000;
+  width: 100px;
+}
+
+.pickup {
+  margin-bottom: 20px;
 }
 
 .form-control {
@@ -571,6 +577,29 @@ textarea.form-control {
   background: #FDA403 !important;
 }
 
+.hero {
+  background-color: rgba(255, 255, 255, 0.356);
+  padding: 20px;
+  color: black;
+  font-style: bold;
+}
+
+ h5, h6 {
+  text-shadow: 2px 2px 5px rgb(15, 15, 15);
+  color: white;
+  font-weight: bold;
+ }
+
+.offer-pickup {
+  color: #FDA403;
+}
+
+.hero-text {
+  text-shadow: 2px 2px 5px rgb(15, 15, 15);
+  color: white;
+  font-weight: bold;
+ }
+
 .site-section .site-sub-title {
   font-size: 16px;
   text-transform: uppercase;
@@ -605,7 +634,7 @@ textarea.form-control {
   }
 
   .img-offer {
-    margin-top: 1em;
+    margin-top: 20px;
   }
 }
 
