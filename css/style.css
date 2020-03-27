@@ -408,23 +408,17 @@ footer {
 
 .btn {
   cursor: pointer;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 10px 35px 10px 35px;
   font-size: 18px;
   font-weight: 700;
   /* font-family: "Playfair Display", serif; */
 }
 
-.btn.btn-lg {
-  font-size: 16px !important;
-  padding: 13px 40px !important;
-}
-
 .btn.btn.btn-primary {
-  border: 2px solid #ccc;
-  background: none;
+  border-color: black;
+  background: black;
   border-radius: 0px;
-  color: #b3aaaa;
+  color: white;
   font-weight: 700;
 }
 
@@ -572,12 +566,12 @@ textarea.form-control {
  h5, h6 {
   text-shadow: 2px 2px 5px rgb(15, 15, 15);
   color: white;
-  font-weight: bold;
  }
 
 .offer-pickup {
-  color: #FDA403;
-  font-weight: 700;
+  color: rgb(240, 157, 3);
+  font-weight: 900;
+  text-shadow: 2px 2px 5px rgb(15, 15, 15);
 }
 
 .hero-text {
