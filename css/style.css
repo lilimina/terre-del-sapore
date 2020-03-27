@@ -411,6 +411,7 @@ footer {
   padding-left: 30px;
   padding-right: 30px;
   font-size: 18px;
+  font-weight: 700;
   /* font-family: "Playfair Display", serif; */
 }
 
@@ -576,6 +577,7 @@ textarea.form-control {
 
 .offer-pickup {
   color: #FDA403;
+  font-weight: 700;
 }
 
 .hero-text {
