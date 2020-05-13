@@ -11,13 +11,18 @@ body {
   color: #a7a2a2;
 }
 
+.modal-content {
+  color: black;
+  background-color:white;
+}
+
 .logo {
   width: 200px;
 }
 
-.img-fluid {
+/* .img-fluid {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-}
+} */
 
 .in-touch {
   margin-bottom: 1.5em !important;
@@ -55,7 +60,6 @@ a {
   transition: .3s all ease;
   color: #FDA403;
 }
-
 
 
 a:hover {
@@ -569,7 +573,7 @@ textarea.form-control {
   font-style: bold;
 }
 
- h5, h6 {
+ h5 {
   text-shadow: 2px 2px 5px rgb(15, 15, 15);
   color: white;
  }
@@ -970,6 +974,7 @@ textarea.form-control {
   animation: loader-dash 1.5s ease-in-out infinite;
   stroke-linecap: round;
 }
+
 
 @-webkit-keyframes loader-rotate {
   100% {
