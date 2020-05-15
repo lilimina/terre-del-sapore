@@ -2,4 +2,4 @@ setTimeout( function () {
 
     $('#myModal').modal('show');
 
-}, 10000);
+}, 20000);
